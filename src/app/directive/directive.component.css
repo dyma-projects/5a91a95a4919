@@ -1,0 +1,55 @@
+div {
+    border: 1px solid #333;
+    margin: 1em 0 0.5em 0;
+    padding: 1em;
+}
+
+.targetcontainer {
+    background-color: #DDD;
+}
+
+.othercontainer {
+    background-color: rgb(255, 108, 108);
+}
+
+.hovercontainer {
+    background-color: rgb(228, 228, 91);
+}
+
+input {
+    background: none;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px dashed #333;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(41, 41, 41);
+    
+}
+
+#magnifiedText {
+    font-family: cursive;
+    text-align: center;
+    background-color: rgb(255, 255, 242);
+}
+.hiddenByDefault {
+    display: none;
+}
+.displayed{
+    display: block;
+}
+
+/* pour la gestion du status*/
+#statusIndicator {
+    border-radius: 15%;
+    border: 1px solid #333;
+    height: 2em;
+    margin-left: 1em;
+    width: 2em;
+}
+.true {
+    background-color: green;
+}
+.false {
+    background-color: red;
+}

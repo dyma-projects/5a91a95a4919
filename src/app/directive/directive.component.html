@@ -1,0 +1,29 @@
+<div class="row" [class]="containerCSSClass" (mousedown)="pressContainer(true)" (mouseup)="pressContainer(false)">
+  <h1>Directives</h1>
+
+  <ol>
+    <li>
+      <strong>Liaison de propriété cible :</strong> sur la classe du container. On la change automatiquement au bout de 4 secondes.</li>
+    <li>
+      <strong>Liaison d'événements :</strong> tant qu'on clique sur ce container.</li>
+    <li>
+      <strong>Double liaison d'événements :</strong>
+      <input type="text" placeholder="tapez un texte ici" (input)="magnifyText($event)"
+      />
+    </li>
+  </ol>
+  <div id="magnifiedText" [class]="hiddenByDefault">{{ textMagnified }}</div>
+</div>
+<div class="row">
+  <p [class]="p1class">p1 !</p>
+  <p [class]="p2class">p2 !</p>
+<hr/>
+  <button class="btn btn-primary" (click)="inverseStatus()">Bouton de changement de status</button><div id="statusIndicator" [class]="status"></div>
+</div>
+<div class="row">
+  <ul class="list-group">
+    <li *ngFor="let text of texts" class="list-group-item">
+      {{text}}
+    </li>
+  </ul>
+</div>

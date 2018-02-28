@@ -16,29 +16,29 @@ Puis lancer le serveur de développement avec :
 
 ## Objectifs
 
-[ ] Créer, dans le répertoire app, 2 composants : un composant "directive" et un composant "liaisons".
+[*] Créer, dans le répertoire app, 2 composants : un composant "directive" et un composant "liaisons".
 
-[ ] Ajouter les deux composants dans le template de AppComponent ( app.component.html )
+[*] Ajouter les deux composants dans le template de AppComponent ( app.component.html )
 
-[ ] Dans le composant "directive", mettez en place trois exemples de liaison de données différents
+[*] Dans le composant "directive", mettez en place trois exemples de liaison de données différents
 
-[ ] Un clic sur le composant "liaison" doit afficher dans la console 'clic !'
+[*] Un clic sur le composant "liaison" doit afficher dans la console 'clic !'
       
-[ ] Dans le component 'directive', mettre en place deux paragraphes avec comme contenu 'p1' et 'p2'.
+[*] Dans le component 'directive', mettre en place deux paragraphes avec comme contenu 'p1' et 'p2'.
 
-[ ] Ajouter dans le component 'directive' une propriété 'status', de type boolean, initialisé à TRUE.
+[*] Ajouter dans le component 'directive' une propriété 'status', de type boolean, initialisé à TRUE.
 
-[ ] Ajouter dans le component 'directive' un bouton avec le text de votre choix.
+[*] Ajouter dans le component 'directive' un bouton avec le text de votre choix.
       
-[ ] Cliquez sur le bouton doit inverser la valeur de la propriété 'status' dans la classe.
+[*] Cliquez sur le bouton doit inverser la valeur de la propriété 'status' dans la classe.
 
-[ ] Si status est à TRUE, le paragraphe contenant p1 doit être affiché et le paragraphe contenant 'p2' ne doit pas être visible.
+[*] Si status est à TRUE, le paragraphe contenant p1 doit être affiché et le paragraphe contenant 'p2' ne doit pas être visible.
   
-[ ] Si status est à FALSE, le paragraphe contenant p2 doit être affiché et le paragraphe content 'p1' ne droit pas être visible.
+[*] Si status est à FALSE, le paragraphe contenant p2 doit être affiché et le paragraphe content 'p1' ne droit pas être visible.
       
-[ ] Dans le composant 'directive' ajouter une propriété 'texts' de type tableau de chaîne de caractères. Dans cette propriété définir trois chaines de caractères contenant les valeurs 'un', 'deux' et 'trois'.
+[*] Dans le composant 'directive' ajouter une propriété 'texts' de type tableau de chaîne de caractères. Dans cette propriété définir trois chaines de caractères contenant les valeurs 'un', 'deux' et 'trois'.
 
-[ ] Utilisez une liste 'ul' et afficher tous les éléments du tableau 'texts' dans des balises 'li'.
+[*] Utilisez une liste 'ul' et afficher tous les éléments du tableau 'texts' dans des balises 'li'.
       
 ## Avant de finir le projet
 
